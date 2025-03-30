@@ -14,6 +14,12 @@
         Welcome to my corner of the web! I write about technology, software
         development, and document the journey of building various projects.
       </p>
+      <p>
+        Currently working on
+        <a href="https://planeswalkerhub.com" target="_blank"
+          >planeswalkerhub.com</a
+        >
+      </p>
     </header>
 
     <ClientOnly>
