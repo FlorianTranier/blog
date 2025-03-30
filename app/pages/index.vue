@@ -18,7 +18,12 @@
 
     <h1>Blog Posts</h1>
     <div>
-      <article v-for="doc in blogPosts" :key="doc.path" :to="doc.path">
+      <article
+        v-if="blogPosts && blogPosts.length > 0"
+        v-for="doc in blogPosts"
+        :key="doc.path"
+        :to="doc.path"
+      >
         <header>
           <NuxtLink :to="doc.path">
             <h2>{{ doc.title }}</h2>
