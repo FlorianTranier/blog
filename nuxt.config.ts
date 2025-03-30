@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   modules: ["@nuxt/content"],
   devtools: { enabled: true },
+  nitro: {
+    preset: "cloudflare_pages",
+  },
   future: {
     compatibilityVersion: 4,
   },
