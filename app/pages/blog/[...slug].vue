@@ -18,8 +18,15 @@ useSeoMeta({
   description: page.value.description,
   ogTitle: page.value.title,
   ogDescription: page.value.description,
-  ogImage: page.value.ogImage,
-  ogUrl: page.value.ogUrl,
+  ogImage:
+    page.value.ogImage ?? "https://blog.tranier.dev/android-chrome-192x192.png",
+  ogUrl: page.value.ogUrl ?? "https://blog.tranier.dev",
+  twitterCard: "summary",
+  ogType: "website",
+  ogLocale: "en",
+  ogSiteName: "Florian Tranier",
+  ogImageWidth: 192,
+  ogImageHeight: 192,
 });
 </script>
 

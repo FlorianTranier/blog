@@ -16,25 +16,27 @@
       </p>
     </header>
 
-    <h1>Blog Posts</h1>
-    <div>
-      <article
-        v-if="blogPosts && blogPosts.length > 0"
-        v-for="doc in blogPosts"
-        :key="doc.path"
-        :to="doc.path"
-      >
-        <header>
-          <NuxtLink :to="doc.path">
-            <h2>{{ doc.title }}</h2>
-          </NuxtLink>
-          <p>
-            {{ new Date(doc.date).toLocaleDateString() }}
-          </p>
-        </header>
-        <p>{{ doc.description }}</p>
-      </article>
-    </div>
+    <ClientOnly>
+      <h1>Blog Posts</h1>
+      <div>
+        <article
+          v-if="blogPosts && blogPosts.length > 0"
+          v-for="doc in blogPosts"
+          :key="doc.path"
+          :to="doc.path"
+        >
+          <header>
+            <NuxtLink :to="doc.path">
+              <h2>{{ doc.title }}</h2>
+            </NuxtLink>
+            <p>
+              {{ new Date(doc.date).toLocaleDateString() }}
+            </p>
+          </header>
+          <p>{{ doc.description }}</p>
+        </article>
+      </div>
+    </ClientOnly>
   </div>
 </template>
 
@@ -51,8 +53,14 @@ useSeoMeta({
   ogTitle: "Florian Tranier",
   ogDescription:
     "Welcome to my corner of the web! I write about technology, software development, and document the journey of building various projects.",
-  ogImage: "https://avatars.githubusercontent.com/u/23231506?v=4",
+  ogImage: "https://blog.tranier.dev/android-chrome-192x192.png",
   ogUrl: "https://blog.tranier.dev",
+  twitterCard: "summary",
+  ogType: "website",
+  ogLocale: "en",
+  ogSiteName: "Florian Tranier",
+  ogImageWidth: 192,
+  ogImageHeight: 192,
 });
 </script>
 
