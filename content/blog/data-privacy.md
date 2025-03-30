@@ -2,9 +2,17 @@
 title: "Keeping your data private : Affordability & Accessibility"
 seo:
   title: "Keeping your data private : Affordability & Accessibility"
+  description: In the last few weeks, I've been seeing a very interesting trend
+    concerning self-hosting. What if you want to keep your data completely
+    private ? I mean by that, staying in your complete control and not handed
+    over to Google, Apple, ... But how ? 🤔
 navigation:
   title: "Keeping your data private : Affordability & Accessibility"
-date: 2024-07-07
+  description: In the last few weeks, I've been seeing a very interesting trend
+    concerning self-hosting. What if you want to keep your data completely
+    private ? I mean by that, staying in your complete control and not handed
+    over to Google, Apple, ... But how ? 🤔
+date: 2024-07-07T00:00:00.000Z
 description: In the last few weeks, I've been seeing a very interesting trend
   concerning self-hosting. What if you want to keep your data completely private
   ? I mean by that, staying in your complete control and not handed over to
