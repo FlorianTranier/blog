@@ -4,8 +4,11 @@ seo:
   title: "Keeping your data private : Affordability & Accessibility"
 navigation:
   title: "Keeping your data private : Affordability & Accessibility"
-date: "2024-07-07"
-description: "In the last few weeks, I've been seeing a very interesting trend concerning self-hosting. What if you want to keep your data completely private ? I mean by that, staying in your complete control and not handed over to Google, Apple, ... But how ? 🤔"
+date: 2024-07-07
+description: In the last few weeks, I've been seeing a very interesting trend
+  concerning self-hosting. What if you want to keep your data completely private
+  ? I mean by that, staying in your complete control and not handed over to
+  Google, Apple, ... But how ? 🤔
 ---
 
 # Keeping your data private : Affordability & Accessibility
@@ -25,14 +28,8 @@ I'm seeing a lot of 'plug & play' solutions coming to the market.\:brTo name a f
 
 We will take a look at what Umbrel offers.
 
-::div{dataNodeType="callout"}
-:::div{dataNodeType="callout-emoji"}
-⚠
-:::
-
-:::div{dataNodeType="callout-text"}
-I'm using CasaOS, and even though it works well for me, I wouldn't recommend it for someone with no technical skills. Also, I've never tried Umbrel, I'm taking it only as an example based on what are their promises. This article is not a promotion for Umbrel.
-:::
+::prose-blockquote
+⚠ I'm using CasaOS, and even though it works well for me, I wouldn't recommend it for someone with no technical skills. Also, I've never tried Umbrel, I'm taking it only as an example based on what are their promises. This article is not a promotion for Umbrel.
 ::
 
 Umbrel sells a server for around $400. It's not cheap, but compared to other NAS solutions, it's definitely more affordable. The thing is, you don't have to buy hard drives; it already comes with 2TB of storage. For most people, it's more than enough to store documents, pictures, and movies, as long as you aren't a content creator.
