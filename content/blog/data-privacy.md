@@ -32,7 +32,13 @@ What if you want to keep your data completely private ? I mean by that, staying 
 
 ### It seems really cool, but I don't know sh\*t about computers 😢
 
-I'm seeing a lot of 'plug & play' solutions coming to the market.\:brTo name a few::br- [HexOS](https://hexos.com/) : An upcoming operating system from the LTT team (famous tech youtuber)\:br- [ZimaOS/CasaOS](https://casaos.io/) : Tries to ease the use of NAS and servers at home. (still a bit techie)\:br- [Umbrel](https://umbrel.com/) : Also an operating system, also selling the server in itself with a plug & play approach
+I'm seeing a lot of 'plug & play' solutions coming to the market.\:brTo name a few:
+
+\- [HexOS](https://hexos.com/) : An upcoming operating system from the LTT team (famous tech youtuber)
+
+\- [ZimaOS/CasaOS](https://casaos.io/) : Tries to ease the use of NAS and servers at home. (still a bit techie)
+
+\- [Umbrel](https://umbrel.com/) : Also an operating system, also selling the server in itself with a plug & play approach
 
 We will take a look at what Umbrel offers.
 
@@ -44,7 +50,13 @@ Umbrel sells a server for around $400. It's not cheap, but compared to other NAS
 
 This device comes with UmbrelOS. Its goal is to make it as user-friendly as possible. You plug the device on your internet router, and directly access it from your web browser. From there, you can install apps just like you would on your phone using the integrated app store.
 
-From what we can see on their website, it supports common tools like::br- Nextcloud : great alternative for Google Drive, OneDrive, ... comes with all the tools to edit text documents, powerpoints, and more, and you can invite other people to collaborate.\:br- Immich : a good alternative for Google Photos. There is a mobile app (Android & iOS) to allow to automatically sync your pictures to your server.\:br- Home Assistant : alternative for Alexa, allowing you to control all home automation devices you could have in your home
+From what we can see on their website, it supports common tools like:
+
+\- Nextcloud : great alternative for Google Drive, OneDrive, ... comes with all the tools to edit text documents, powerpoints, and more, and you can invite other people to collaborate.
+
+\- Immich : a good alternative for Google Photos. There is a mobile app (Android & iOS) to allow to automatically sync your pictures to your server.
+
+\- Home Assistant : alternative for Alexa, allowing you to control all home automation devices you could have in your home
 
 You can check everything that can be installed here <https://apps.umbrel.com/>
 
