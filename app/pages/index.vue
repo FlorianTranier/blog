@@ -53,7 +53,8 @@ const blogPosts = await queryCollection("blog")
   .all();
 
 useSeoMeta({
-  title: "Florian Tranier",
+  title: "Blog",
+  titleTemplate: "%s | Florian Tranier",
   description:
     "Welcome to my corner of the web! I write about technology, software development, and document the journey of building various projects.",
   ogTitle: "Florian Tranier",

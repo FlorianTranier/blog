@@ -15,6 +15,7 @@ if (!page.value) {
 
 useSeoMeta({
   title: page.value.title,
+  titleTemplate: "%s | Florian Tranier",
   description: page.value.description,
   ogTitle: page.value.title,
   ogDescription: page.value.description,
